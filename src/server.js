@@ -1,4 +1,5 @@
 const express = require("express");
+require("dotenv").config();
 const path = require("path");
 const engine = require("ejs-mate"); //plantillas partials etc para las vistas
 const flash = require("connect-flash"); //le da un mensaje de la pagina anterior
